@@ -8,7 +8,7 @@ extern "C" {
 }
 
 // bytes derrived from: https://github.com/DJISDKUser/metasploit-framework/blob/62e36f1b5c6cae0abed9c86c769bd1656931061c/modules/auxiliary/dos/wifi/droneid.rb#L187
-byte wifipkt[128] = {
+byte wifipkt[] = {
     0x80,                      // type/subtype
     0x00,                      // flags
     0x00, 0x00,                // duration
